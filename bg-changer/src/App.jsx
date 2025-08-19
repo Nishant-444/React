@@ -2,11 +2,11 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-	const [color, setColor] = useState("#212121");
+    const [color, setColor] = useState("#212121");
 
-	return (
-		<>
-			<div
+    return ( <
+        >
+        <div
 				className="w-full h-screen duration-200"
 				style={{ backgroundColor: color }}
 			>
@@ -56,9 +56,10 @@ function App() {
 						</button>
 					</div>
 				</div>
-			</div>
-		</>
-	);
+			</div> <
+        />
+    );
+
 }
 
 export default App;
