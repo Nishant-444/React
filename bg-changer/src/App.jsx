@@ -2,18 +2,18 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-    const [color, setColor] = useState("#212121");
+	const [color, setColor] = useState("#212121");
 
-    return ( <
-        >
-        <div
+	return (
+		<>
+			<div
 				className="w-full h-screen duration-200"
 				style={{ backgroundColor: color }}
 			>
 				<div className="fixed flex flex-wrap justify-center top-4 inset-x-0 px-2">
 					<div className="bg-white rounded-full m-1 gap-3 p-4 shadow-xl">
 						<button
-							className="outline-none px-4 py-1 rounded-full mx-2 bg-violet-600 text-white cursor-pointer hover:opacity-75"
+							className="outline-none px-4 py-1 rounded-full mx-2 bg-violet-600 text-white cursor-pointer hover:opacity-75 "
 							onClick={() => setColor("#7c3aed")}
 						>
 							Violet
@@ -56,10 +56,9 @@ function App() {
 						</button>
 					</div>
 				</div>
-			</div> <
-        />
-    );
-
+			</div>{" "}
+		</>
+	);
 }
 
 export default App;
